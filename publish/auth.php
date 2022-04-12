@@ -174,7 +174,7 @@ return [
     ],
     'providers' => [
         'users' => [
-            'driver' => \Qbhy\HyperfAuth\Provider\EloquentProvider::class,
+            'driver' => \Irooit\HyperfAuth\Provider\EloquentProvider::class,
             'model' => App\Model\User::class, //  需要实现 Qbhy\HyperfAuth\Authenticatable 接口
         ],
     ],

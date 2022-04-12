@@ -1,5 +1,5 @@
 {
-    "name": "96qbhy/hyperf-auth",
+    "name": "irooit/hyperf-auth",
     "description": "hyperf 的 auth 组件",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Qbhy\\HyperfAuth\\": "src/"
+            "Irooit\\HyperfAuth\\": "src/"
         },
         "files": [
             "src/helper.php"

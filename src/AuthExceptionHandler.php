@@ -9,12 +9,12 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth;
+namespace Irooit\HyperfAuth;
 
 use Hyperf\ExceptionHandler\ExceptionHandler;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Psr\Http\Message\ResponseInterface;
-use Qbhy\HyperfAuth\Exception\UnauthorizedException;
+use Irooit\HyperfAuth\Exception\UnauthorizedException;
 use Throwable;
 
 class AuthExceptionHandler extends ExceptionHandler

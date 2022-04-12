@@ -9,14 +9,14 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth;
+namespace Irooit\HyperfAuth;
 
 use Hyperf\Di\Annotation\Aspect;
 use Hyperf\Di\Annotation\Inject;
 use Hyperf\Di\Aop\AbstractAspect;
 use Hyperf\Di\Aop\ProceedingJoinPoint;
-use Qbhy\HyperfAuth\Annotation\Auth;
-use Qbhy\HyperfAuth\Exception\UnauthorizedException;
+use Irooit\HyperfAuth\Annotation\Auth;
+use Irooit\HyperfAuth\Exception\UnauthorizedException;
 
 /**
  * @Aspect

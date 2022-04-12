@@ -30,7 +30,7 @@ return [
             // 自定义 redis key，必须包含 {uid}，{uid} 会被替换成用户ID
             'redis_key' => 'u:token:{uid}',
 
-            'driver' => Qbhy\HyperfAuth\Guard\SsoGuard::class,
+            'driver' => Irooit\HyperfAuth\Guard\SsoGuard::class,
             'provider' => 'users',
 
             /*
@@ -99,7 +99,7 @@ return [
             'prefix' => env('SIMPLE_JWT_PREFIX', 'default'),
         ],
         'jwt' => [
-            'driver' => Qbhy\HyperfAuth\Guard\JwtGuard::class,
+            'driver' => Irooit\HyperfAuth\Guard\JwtGuard::class,
             'provider' => 'users',
 
             /*
@@ -168,7 +168,7 @@ return [
             'prefix' => env('SIMPLE_JWT_PREFIX', 'default'),
         ],
         'session' => [
-            'driver' => Qbhy\HyperfAuth\Guard\SessionGuard::class,
+            'driver' => Irooit\HyperfAuth\Guard\SessionGuard::class,
             'provider' => 'users',
         ],
     ],

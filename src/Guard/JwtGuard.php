@@ -9,17 +9,17 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth\Guard;
+namespace Irooit\HyperfAuth\Guard;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Utils\Context;
 use Hyperf\Utils\Str;
-use Qbhy\HyperfAuth\Authenticatable;
-use Qbhy\HyperfAuth\Exception\AuthException;
-use Qbhy\HyperfAuth\Exception\UnauthorizedException;
-use Qbhy\HyperfAuth\UserProvider;
-use Qbhy\SimpleJwt\Exceptions\TokenExpiredException;
-use Qbhy\SimpleJwt\JWTManager;
+use Irooit\HyperfAuth\Authenticatable;
+use Irooit\HyperfAuth\Exception\AuthException;
+use Irooit\HyperfAuth\Exception\UnauthorizedException;
+use Irooit\HyperfAuth\UserProvider;
+use Irooit\SimpleJwt\Exceptions\TokenExpiredException;
+use Irooit\SimpleJwt\JWTManager;
 
 class JwtGuard extends AbstractAuthGuard
 {
@@ -137,10 +137,10 @@ class JwtGuard extends AbstractAuthGuard
     /**
      * 刷新 token，旧 token 会失效.
      *
-     * @throws \Qbhy\SimpleJwt\Exceptions\InvalidTokenException
-     * @throws \Qbhy\SimpleJwt\Exceptions\JWTException
-     * @throws \Qbhy\SimpleJwt\Exceptions\SignatureException
-     * @throws \Qbhy\SimpleJwt\Exceptions\TokenExpiredException
+     * @throws \Irooit\SimpleJwt\Exceptions\InvalidTokenException
+     * @throws \Irooit\SimpleJwt\Exceptions\JWTException
+     * @throws \Irooit\SimpleJwt\Exceptions\SignatureException
+     * @throws \Irooit\SimpleJwt\Exceptions\TokenExpiredException
      */
     public function refresh(?string $token = null): ?string
     {
@@ -200,9 +200,9 @@ class JwtGuard extends AbstractAuthGuard
      * 获取 token 标识.
      * 为了性能，直接 md5.
      *
-     * @throws \Qbhy\SimpleJwt\Exceptions\SignatureException
-     * @throws \Qbhy\SimpleJwt\Exceptions\TokenExpiredException
-     * @throws \Qbhy\SimpleJwt\Exceptions\InvalidTokenException
+     * @throws \Irooit\SimpleJwt\Exceptions\SignatureException
+     * @throws \Irooit\SimpleJwt\Exceptions\TokenExpiredException
+     * @throws \Irooit\SimpleJwt\Exceptions\InvalidTokenException
      * @return mixed|string
      */
     protected function getJti(string $token): string

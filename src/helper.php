@@ -10,14 +10,14 @@ declare(strict_types=1);
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
 use Hyperf\Utils\ApplicationContext;
-use Qbhy\HyperfAuth\AuthManager;
+use Irooit\HyperfAuth\AuthManager;
 
 if (! function_exists('auth')) {
     /**
      * 建议视图中使用该函数，其他地方请使用注入.
-     * @throws \Qbhy\HyperfAuth\Exception\UserProviderException
-     * @throws \Qbhy\HyperfAuth\Exception\GuardException
-     * @return AuthManager|mixed|\Qbhy\HyperfAuth\AuthGuard
+     * @throws \Irooit\HyperfAuth\Exception\UserProviderException
+     * @throws \Irooit\HyperfAuth\Exception\GuardException
+     * @return AuthManager|mixed|\Irooit\HyperfAuth\AuthGuard
      */
     function auth(?string $guard = null)
     {

@@ -9,14 +9,14 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth\Guard;
+namespace Irooit\HyperfAuth\Guard;
 
 use Hyperf\Contract\SessionInterface;
 use Hyperf\Utils\Context;
-use Qbhy\HyperfAuth\Authenticatable;
-use Qbhy\HyperfAuth\Exception\AuthException;
-use Qbhy\HyperfAuth\Exception\UnauthorizedException;
-use Qbhy\HyperfAuth\UserProvider;
+use Irooit\HyperfAuth\Authenticatable;
+use Irooit\HyperfAuth\Exception\AuthException;
+use Irooit\HyperfAuth\Exception\UnauthorizedException;
+use Irooit\HyperfAuth\UserProvider;
 
 class SessionGuard extends AbstractAuthGuard
 {

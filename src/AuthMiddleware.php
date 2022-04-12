@@ -9,14 +9,14 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth;
+namespace Irooit\HyperfAuth;
 
 use Hyperf\Di\Annotation\Inject;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Qbhy\HyperfAuth\Exception\UnauthorizedException;
+use Irooit\HyperfAuth\Exception\UnauthorizedException;
 
 /**
  * Class AuthMiddleware.

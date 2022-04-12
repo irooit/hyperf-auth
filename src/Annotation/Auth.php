@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth\Annotation;
+namespace Irooit\HyperfAuth\Annotation;
 
 use Doctrine\Common\Annotations\Annotation\Target;
 use Hyperf\Di\Annotation\AbstractAnnotation;

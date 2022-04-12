@@ -9,9 +9,9 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth\Events;
+namespace Irooit\HyperfAuth\Events;
 
-use Qbhy\HyperfAuth\Authenticatable;
+use Irooit\HyperfAuth\Authenticatable;
 
 /**
  * 被迫下线事件

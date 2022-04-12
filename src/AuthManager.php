@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth;
+namespace Irooit\HyperfAuth;
 
 use Hyperf\Contract\ConfigInterface;
-use Qbhy\HyperfAuth\Exception\GuardException;
-use Qbhy\HyperfAuth\Exception\UserProviderException;
+use Irooit\HyperfAuth\Exception\GuardException;
+use Irooit\HyperfAuth\Exception\UserProviderException;
 
 /**
  * Class AuthManager.

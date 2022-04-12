@@ -9,15 +9,15 @@ declare(strict_types=1);
  * @contact  qbhy0715@qq.com
  * @license  https://github.com/qbhy/hyperf-auth/blob/master/LICENSE
  */
-namespace Qbhy\HyperfAuth\Guard;
+namespace Irooit\HyperfAuth\Guard;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Redis\Redis;
 use Hyperf\Utils\Context;
 use Psr\EventDispatcher\EventDispatcherInterface;
-use Qbhy\HyperfAuth\Authenticatable;
-use Qbhy\HyperfAuth\Events\ForcedOfflineEvent;
-use Qbhy\HyperfAuth\UserProvider;
+use Irooit\HyperfAuth\Authenticatable;
+use Irooit\HyperfAuth\Events\ForcedOfflineEvent;
+use Irooit\HyperfAuth\UserProvider;
 
 class SsoGuard extends JwtGuard
 {

@@ -64,7 +64,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Qbhy\\HyperfAuth\\ConfigProvider"
+            "config": "Irooit\\HyperfAuth\\ConfigProvider"
         },
         "hooks": {
             "pre-commit": [
